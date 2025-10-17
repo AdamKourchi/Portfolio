@@ -88,13 +88,13 @@ export default function Project({
         </Card>
       </DialogTrigger>
 
-      <DialogContent className="sm:max-w-[1000px]">
+      <DialogContent className="max-w-[500px] lg:max-w-[1000px]">
         <DialogHeader>
           <DialogTitle>{title}</DialogTitle>
         </DialogHeader>
-        <div className="grid grid-cols-2">
+        <div className="grid grid-cols-1 lg:grid-cols-2">
           <Carousel
-            className="h-[300px] w-[400px]"
+            className="hidden lg:block lg:h-[300px] lg:w-[400px]"
             plugins={[
               Autoplay({
                 delay: 2000,

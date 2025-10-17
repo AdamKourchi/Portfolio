@@ -4,7 +4,7 @@ import Image from "next/image";
 export default function AboutMe() {
   return (
     <section className="w-full">
-      <article className="px-32">
+      <article className="px-10 lg:px-32">
         <h2 className="py-10 text-2xl">About Me :</h2>
         <p className="text-center">
           I'm Adam Kourchi, a full-stack developer with a fervent
@@ -13,7 +13,7 @@ export default function AboutMe() {
           experience.
         </p>
       </article>
-      <div className="mx-50  flex justify-center gap-8">
+      <div className="flex justify-center gap-8">
         {/* Github */}
         <a
           href="https://github.com/AdamKourchi"
@@ -88,7 +88,7 @@ export default function AboutMe() {
         </a>
       </div>
 
-      <div className="mx-50 my-5">
+      <div className="lg:mx-50 my-5">
         <Separator className="dark:bg-white bg-black" />
       </div>
     </section>

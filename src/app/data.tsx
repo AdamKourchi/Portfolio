@@ -304,6 +304,6 @@ This was a fun and insightful project that deepened my understanding of game loo
       },
     ],
 
-    githubUrl: "https://github.com/AdamKourchi/CarGame",
+    githubUrl: "https://github.com/AdamKourchi/Road-Mania",
   },
 ];
