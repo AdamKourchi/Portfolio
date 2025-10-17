@@ -1,36 +1,52 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 🌐 Personal Portfolio Website
 
-## Getting Started
+**Description:**  
+A modern and elegant portfolio website showcasing my projects, skills, and professional journey.
 
-First, run the development server:
+Built with **Next.js**, **React**, **Tailwind CSS**, and **shadcn/ui**, this portfolio reflects my focus on clean design, smooth user experience, and technical precision.  
+It includes project highlights, dynamic light/dark theming, and a concise about section that introduces who I am and what I build.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+Deployed on **Vercel** for instant updates and globally distributed performance.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+---
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## 🖼️ Preview
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+| ![Main Screenshot](screenshots/portfolio.png) | ![Screenshot 1](screenshots/portfolio1.png) |
+|--------------------------------------------|------------------------------------------|
+| ![Screenshot 2](screenshots/portfolio2.png)   |                                          |
 
-## Learn More
+---
 
-To learn more about Next.js, take a look at the following resources:
+## ✨ Key Features
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+- 🎨 Minimal, elegant design with fluid transitions  
+- 🌗 Light and dark mode toggle  
+- 🧩 Interactive project gallery with detailed previews  
+- ⚡ Blazing-fast load times with Next.js static optimization  
+- 📱 Fully responsive layout for all screen sizes  
+- 🔄 Continuous deployment via Vercel  
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+---
 
-## Deploy on Vercel
+## 🧠 Technologies Used
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+| Technology | Purpose |
+|-------------|----------|
+| ⚫ **Next.js** | Framework for React with hybrid rendering and routing |
+| ⚛️ **React** | UI library for building dynamic interfaces |
+| 💨 **Tailwind CSS** | Utility-first CSS framework for styling |
+| 🧱 **shadcn/ui** | Modern component library for design consistency |
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+---
+
+## 🚀 Deployment
+
+- Hosted on **Vercel** with automatic CI/CD  
+- Global CDN for optimal performance  
+
+---
+
+## 🏁 Live Demo
+
+🌍 [Visit Portfolio Website](https://dirnia.click)
