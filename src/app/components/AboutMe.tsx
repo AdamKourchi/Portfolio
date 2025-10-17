@@ -7,7 +7,7 @@ export default function AboutMe() {
       <article className="px-10 lg:px-32">
         <h2 className="py-10 text-2xl">About Me :</h2>
         <p className="text-center">
-          I'm Adam Kourchi, a full-stack developer with a fervent
+          I&apos;m Adam Kourchi, a full-stack developer with a fervent
           enthusiasm for embracing new challenges and technologies.My true
           growth is driven by my passion for self-directed learning and hands-on
           experience.
