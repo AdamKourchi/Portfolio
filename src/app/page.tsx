@@ -4,6 +4,7 @@ import AboutMe from "@/app/components/AboutMe";
 import Projects from "@/app/components/Projects";
 import "./globals.css";
 import { Fira_Code } from 'next/font/google'
+import Footer from "./components/Footer";
 
 const fira = Fira_Code({
   subsets: ['latin'],
@@ -15,6 +16,7 @@ export default function Home() {
       <VantaRings />
       <AboutMe />
       <Projects />
+      <Footer />
     </main>
   );
 }

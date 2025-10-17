@@ -63,7 +63,7 @@ export default function Project({
   technologies,
   hosting,
   githubUrl,
-  cardImage,
+  cardImage
 }: ProjectProps) {
   return (
     <Dialog>
@@ -73,14 +73,6 @@ export default function Project({
             <CardTitle>{title}</CardTitle>
             <CardDescription>{description}</CardDescription>
             <CardAction>
-              <Button variant="link">
-                <Image
-                  src={`/svgs/github.svg`}
-                  alt="Github Logo"
-                  width={30}
-                  height={30}
-                />
-              </Button>
             </CardAction>
           </CardHeader>
           <CardContent>
@@ -92,7 +84,7 @@ export default function Project({
               className="w-full rounded"
             />
           </CardContent>
-          <CardFooter className="flex-col gap-2"></CardFooter>
+          <CardFooter><p className="opacity-0 transition-all duration-300 group-hover:opacity-100 text-center w-full animate-bounce">Click!</p></CardFooter>
         </Card>
       </DialogTrigger>
 
