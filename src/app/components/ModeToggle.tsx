@@ -11,7 +11,7 @@ export default function ModeToggle() {
 
   useEffect(() => {
     setMounted(true);
-    setTheme(localStorage.getItem("theme") === "dark" ? "dark" : "light");
+    setTheme(localStorage.getItem("theme") === "light" ? "light" : "dark");
   }, []);
 
   if (!mounted) return null;

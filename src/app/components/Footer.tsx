@@ -1,10 +1,10 @@
 import Image from "next/image";
 import { useTheme } from "next-themes";
-import { useEffect, useRef, useState } from "react";
+import { useEffect, useState } from "react";
 
 export default function Footer() {
   const [mounted, setMounted] = useState(false);
-  let year = new Date().getFullYear();;
+  const year = new Date().getFullYear();;
   const { theme } = useTheme();
 
   useEffect(() => {
