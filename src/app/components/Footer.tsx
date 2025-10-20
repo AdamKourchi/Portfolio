@@ -1,7 +1,5 @@
 import Image from "next/image";
 import { useTheme } from "next-themes";
-import { useEffect } from "react";
-
 
 
 export default function Footer() {
