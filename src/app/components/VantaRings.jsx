@@ -51,7 +51,7 @@ export default function VantaRings() {
         <ModeToggle></ModeToggle>
 
         <Image
-          src="/images/logo-white.png"
+          src="/images/logo-dark.png"
           alt="My Logo"
           width={40}
           height={50}

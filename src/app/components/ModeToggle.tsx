@@ -1,18 +1,32 @@
-"use client"
-import * as React from "react"
-import { Moon, Sun } from "lucide-react"
-import { useTheme } from "next-themes"
-import { Button } from "@/components/ui/button"
+"use client";
+import * as React from "react";
+import { Moon, Sun } from "lucide-react";
+import { useTheme } from "next-themes";
+import { Button } from "@/components/ui/button";
+import { useEffect, useState } from "react";
 
 export default function ModeToggle() {
-  const { theme, setTheme } = useTheme()
+  const [mounted, setMounted] = useState(false);
+  const { theme, setTheme } = useTheme();
 
+  useEffect(() => {
+    setMounted(true);
+    setTheme(localStorage.getItem("theme") === "dark" ? "dark" : "light");
+  }, []);
+
+  if (!mounted) return null;
+  
   const handleToggle = () => {
-    setTheme(theme === "dark" ? "light" : "dark")
-  }
+    setTheme(theme === "dark" ? "light" : "dark");
+  };
 
   return (
-    <Button className="cursor-none" variant="outline" size="icon" onClick={handleToggle}>
+    <Button
+      className="cursor-none"
+      variant="outline"
+      size="icon"
+      onClick={handleToggle}
+    >
       {theme === "dark" ? (
         <Sun className="h-[1.2rem] w-[1.2rem] transition-all" />
       ) : (
@@ -20,5 +34,5 @@ export default function ModeToggle() {
       )}
       <span className="sr-only">Toggle theme</span>
     </Button>
-  )
+  );
 }
