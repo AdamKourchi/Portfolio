@@ -95,17 +95,17 @@ export default function VantaRings() {
 
         <DropdownMenu modal={false}>
           <DropdownMenuTrigger className="mt-5 cursor-none" asChild>
-            <Button className="dark:text-white text-black" variant="outline">
+            <Button className="dark:text-white text-black cursor-none" variant="outline">
               <Download />
               CV
             </Button>
           </DropdownMenuTrigger>
           <DropdownMenuContent>
-            <a href="cv-english.pdf" download>
-              <DropdownMenuItem>English</DropdownMenuItem>
+            <a className="cursor-none" href="AdamKourchi-EN.pdf" download>
+              <DropdownMenuItem className="cursor-none">English</DropdownMenuItem>
             </a>
-            <a href="cv-french.pdf" download>
-              <DropdownMenuItem>Français</DropdownMenuItem>
+            <a className="cursor-none" href="AdamKourchi-FR.pdf" download>
+              <DropdownMenuItem className="cursor-none">Français</DropdownMenuItem>
             </a>
           </DropdownMenuContent>
         </DropdownMenu>
