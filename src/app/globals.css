@@ -122,3 +122,21 @@ body, html {
     @apply bg-background text-foreground;
   }
 }
+
+.fallback-gradient {
+  background: linear-gradient(270deg, #0000, #202428);
+  background-size: 400% 400%;
+  animation: gradientShift 15s ease infinite;
+}
+
+@keyframes gradientShift {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
