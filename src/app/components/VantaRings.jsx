@@ -101,10 +101,10 @@ export default function VantaRings() {
             </Button>
           </DropdownMenuTrigger>
           <DropdownMenuContent>
-            <a className="cursor-none" href="AdamKourchi-EN.pdf" download>
+            <a className="cursor-none" href="AdamKourchi_EN.pdf" download>
               <DropdownMenuItem className="cursor-none">English</DropdownMenuItem>
             </a>
-            <a className="cursor-none" href="AdamKourchi-FR.pdf" download>
+            <a className="cursor-none" href="AdamKourchi_FR.pdf" download>
               <DropdownMenuItem className="cursor-none">Français</DropdownMenuItem>
             </a>
           </DropdownMenuContent>
